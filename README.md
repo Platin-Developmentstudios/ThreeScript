@@ -1,5 +1,5 @@
 # ThreeScript
-The "Bash" for ThreeOS
+The "Bash" for ThreeOS | Extra Version for Linux
 <hr />
 Build instructions: See docs/BUILD.md
 <br />
