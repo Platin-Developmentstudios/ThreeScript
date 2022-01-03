@@ -29,6 +29,7 @@ namespace ThreeScript {
                     Console.WriteLine("help       | Print this list");
                     Console.WriteLine("run <path> | Execute an ThreeScript");
                     Console.WriteLine("exit       | Exit the ThreeScript Shell");
+                    Console.WriteLine("clear      | Clear the Console")
                     
                 } else if(input.StartsWith("run")) {
                     
@@ -39,6 +40,8 @@ namespace ThreeScript {
                         TScriptEngine.Execute(runPath);
                     }
                     
+                } else if(input.StartsWith("clear")) {
+                    Console.Clear();
                 } else if(input.StartsWith("exit")) {
                     break;
                 } else {
